@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ex01 - Positioning</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="#top">Home</a>
+    <a href="#top">About</a>
+    <a href="#top">Contact</a>
+  </nav>
+
+  <main id="top">
+    <div class="card-container">
+      <span class="badge">3</span>
+      <h2>Notifications</h2>
+      <p>The badge is absolute, anchored to this card because the card is position: relative.</p>
+    </div>
+
+    <p class="filler">Scroll down to see the fixed navbar and the back-to-top button stay in place.</p>
+    <div class="spacer"></div>
+  </main>
+
+  <a href="#top" class="back-to-top">&uarr; Top</a>
+</body>
+</html>

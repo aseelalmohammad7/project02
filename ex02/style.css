@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.shapes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.shape-item {
+    width: 220px;
+    min-height: 220px;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ddd;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    margin: 30px auto;
+    background: steelblue;
+}
+
+.rectangle {
+    width: 160px;
+    height: 90px;
+    margin: 35px auto;
+    background: seagreen;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    margin: 30px auto;
+    background: tomato;
+    border-radius: 50%;
+}
+
+.pill {
+    width: 170px;
+    height: 70px;
+    margin: 45px auto;
+    background: goldenrod;
+    border-radius: 35px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    margin: 30px auto;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+    border-bottom: 100px solid purple;
+}
